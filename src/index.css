@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Geist", "Inter", sans-serif;
+
+  --color-surface-dim: #131313;
+  --color-surface-bright: #3a3939;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container: #201f1f;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353534;
+  
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #e4beba;
+  
+  --color-primary-brand: #ffb3ad;
+  --color-on-primary-brand: #68000a;
+  --color-primary-container: #ff5451;
+  
+  --color-secondary-brand: #ffb690;
+  --color-on-secondary-brand: #552100;
+  
+  --color-tertiary-brand: #4ae176;
+  --color-on-tertiary-brand: #003915;
+  
+  --color-error-brand: #ffb4ab;
+  --color-on-error-brand: #690005;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-surface-dim)] text-[var(--color-on-surface)] antialiased min-h-screen font-sans;
+    background-image: radial-gradient(circle at 50% 0%, rgba(255,179,173,0.05) 0%, rgba(19,19,19,1) 70%);
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-linear-to-b from-white/5 to-white/2 backdrop-blur-xl border border-white/10;
+  }
+  
+  .terminal-scanline {
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(255,255,255,0.02) 50%);
+    background-size: 100% 4px;
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

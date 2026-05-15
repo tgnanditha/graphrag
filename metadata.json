@@ -1,0 +1,6 @@
+{
+  "name": "BioBenchmark AI",
+  "description": "Biomedical QA Benchmark Console for comparing GraphRAG, RAG, and LLM pipelines with real-time performance tracking and resource consumption analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

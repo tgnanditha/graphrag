@@ -1,0 +1,58 @@
+# ─── Secrets & Environment ──────────────────────────────────────────────────
+.env
+*.env
+
+# ─── Large Data Files (>100MB — rebuild with download_data.py + build_index.py)
+data/chunks/
+data/raw/
+!.env.template
+!.env.example
+
+# ─── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Virtual Environments ────────────────────────────────────────────────────
+.venv/
+venv/
+venv311/
+env/
+ENV/
+
+# ─── HuggingFace / Model Cache ───────────────────────────────────────────────
+.cache/
+~/.cache/huggingface/
+
+# ─── ChromaDB (local vector store — rebuild with build_index.py) ─────────────
+chroma_db/
+
+# ─── Node / Frontend ─────────────────────────────────────────────────────────
+node_modules/
+dist/
+.next/
+
+# ─── IDE & OS ────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Jupyter ─────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Logs & Temp ─────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+tmp/
+temp/

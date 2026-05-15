@@ -1,0 +1,9 @@
+{
+  "pipeline2": {
+    "llm_judge_pass_rate": 1.0,
+    "avg_bertscore_f1": 0.7848,
+    "n_evaluated": 1,
+    "meets_judge_bonus": true,
+    "meets_bert_bonus": true
+  }
+}

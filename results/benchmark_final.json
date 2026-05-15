@@ -1,0 +1,842 @@
+[
+  {
+    "timestamp": "2026-05-14T15:28:12.753159",
+    "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+    "gold_answer": "Results depicted mitochondrial dynamics in vivo as PCD progresses within the lace plant, and highlight the correlation of this organelle with other organelles during developmental PCD. To the best of our knowledge, this is the first report of mitochondria and chloroplasts moving on transvacuolar strands to form a ring structure surrounding the nucleus during developmental PCD. Also, for the first time, we have shown the feasibility for the use of CsA in a whole plant system. Overall, our findings implicate the mitochondria as playing a critical and early role in developmentally regulated PCD in the lace plant.",
+    "results": {
+      "pipeline1": {
+        "pipeline": "LLM-Only",
+        "answer": "Yes, mitochondria play a crucial role. They are involved in generating reactive oxygen species (ROS), regulating cellular energy status, and participating in signaling pathways essential for the controlled programmed cell death that leads to the fenestrations (holes) in lace plant leaves.",
+        "prompt_tokens": 36,
+        "completion_tokens": 51,
+        "total_tokens": 87,
+        "latency_seconds": 5.873,
+        "cost_usd": 1.8e-05,
+        "context_chunks": 0
+      },
+      "pipeline2": {
+        "pipeline": "Basic-RAG",
+        "answer": "Yes, mitochondria play a role in remodeling lace plant leaves during programmed cell death (PCD).\n\nThe provided context states that a paper \"elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in *A. madagascariensis*.\" Mitochondrial dynamics, including distribution, motility, and membrane potential, were delineated into categories (M1-M4) during the progression of PCD.\n\nFurthermore, the context describes an indirect examination of the possible importance of mitochondrial permeability transition pore (PTP) formation during PCD. Treatment with cyclosporine A (CsA), which affects PTP, resulted in lace plant leaves with a significantly lower number of perforations (the result of remodeling) compared to controls, and these leaves displayed mitochondrial dynamics similar to that of non-PCD cells. This indicates that mitochondrial activity, specifically related to PTP formation, is important for the formation of perforations (remodeling) during PCD in lace plant leaves.",
+        "prompt_tokens": 734,
+        "completion_tokens": 193,
+        "total_tokens": 927,
+        "latency_seconds": 6.618,
+        "cost_usd": 0.00011295,
+        "context_chunks": 5
+      },
+      "pipeline3": {
+        "pipeline": "GraphRAG",
+        "answer": "Yes, mitochondria play a crucial role. They provide ATP necessary for the active process of programmed cell death (PCD) and contribute to reactive oxygen species (ROS) signaling, which are key events in the localized cell death that forms the lace-like perforations.",
+        "prompt_tokens": 32,
+        "completion_tokens": 53,
+        "total_tokens": 85,
+        "latency_seconds": 12.636,
+        "cost_usd": 1.83e-05,
+        "context_chunks": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:28:42.800262",
+    "question": "Landolt C and snellen e acuity: differences in strabismus amblyopia?",
+    "gold_answer": "Using the charts described, there was only a slight overestimation of visual acuity by the Snellen E compared to the Landolt C, even in strabismus amblyopia. Small differences in the lower visual acuity range have to be considered.",
+    "results": {
+      "pipeline1": {
+        "pipeline": "LLM-Only",
+        "answer": "In strabismic amblyopia, **Landolt C acuity** (a resolution task) often appears **better** than **Snellen E acuity** (a recognition task).\n\nThis difference is primarily due to the **crowding phenomenon**:\n\n1.  **Landolt C**, especially when presented as a single optotype, is less susceptible to the inhibitory effect of surrounding contours, providing a more \"pure\" measure of fundamental visual resolution.\n2.  **Snellen E**, particularly when presented in a line with adjacent letters, is highly susceptible to crowding, leading to a greater reduction in measured acuity because the surrounding letters interfere with target recognition in the amblyopic eye.",
+        "prompt_tokens": 38,
+        "completion_tokens": 138,
+        "total_tokens": 176,
+        "latency_seconds": 13.75,
+        "cost_usd": 4.425e-05,
+        "context_chunks": 0
+      },
+      "pipeline2": {
+        "pipeline": "Basic-RAG",
+        "answer": "For eyes with strabismus amblyopia, the mean decimal values were 0.14 for Landolt C acuity and 0.16 for Snellen E acuity. The mean difference between Landolt C and Snellen E acuity was 0.55 lines in this group, with Snellen E values being higher.",
+        "prompt_tokens": 628,
+        "completion_tokens": 68,
+        "total_tokens": 696,
+        "latency_seconds": 3.267,
+        "cost_usd": 6.75e-05,
+        "context_chunks": 5
+      },
+      "pipeline3": {
+        "pipeline": "GraphRAG",
+        "answer": "In strabismic amblyopia, Landolt C may sometimes yield slightly better visual acuity than Snellen E. This is because Landolt C involves a simpler gap orientation task (a pure measure of minimum resolvable acuity), while Snellen E requires letter recognition, which can be more challenging for amblyopic eyes due to spatial distortion and the prominent crowding phenomenon.",
+        "prompt_tokens": 34,
+        "completion_tokens": 73,
+        "total_tokens": 107,
+        "latency_seconds": 12.01,
+        "cost_usd": 2.445e-05,
+        "context_chunks": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:29:07.271481",
+    "question": "Syncope during bathing in infants, a pediatric form of water-induced urticaria?",
+    "gold_answer": "\"Aquagenic maladies\" could be a pediatric form of the aquagenic urticaria.",
+    "results": {
+      "pipeline1": {
+        "pipeline": "LLM-Only",
+        "answer": "No, syncope during bathing in infants is **not** typically a pediatric form of water-induced urticaria.\n\nWater-induced urticaria (aquagenic urticaria) is a rare condition characterized by transient, itchy wheals on the skin after water contact, without systemic symptoms like syncope.\n\nSyncope in this context requires investigation for other, far more likely causes such as:\n*   **Vasovagal episodes:** Common, often triggered by temperature changes or physiological stress.\n*   **Cardiac arrhythmias:** Important to rule out, as some can be triggered by water immersion or temperature changes (e.g., Long QT syndrome).\n*   **Breath-holding spells:** Can mimic syncope, often in response to distress.\n*   **Seizures:** While less common solely triggered by water, it's a differential to consider.\n\nAny episode of syncope in an infant warrants a thorough medical evaluation.",
+        "prompt_tokens": 37,
+        "completion_tokens": 190,
+        "total_tokens": 227,
+        "latency_seconds": 6.735,
+        "cost_usd": 5.977e-05,
+        "context_chunks": 0
+      },
+      "pipeline2": {
+        "pipeline": "Basic-RAG",
+        "answer": "The context describes eight infants who suffered from similar maladies in the bath, becoming pale, hypotonic, still, and unreactive on immersion, with recovery after withdrawal and stimulation. For these symptoms, the hypothesis of an equivalent of aquagenic urticaria was considered. This was supported by findings that each infant's family contained members suffering from dermographism, maladies, or eruption after exposure to water or sun, all six infants had dermographism, and two tested infants showed an increase in blood histamine levels after a trial bath. The evolution of these \"aquagenic maladies\" was favorable.",
+        "prompt_tokens": 523,
+        "completion_tokens": 120,
+        "total_tokens": 643,
+        "latency_seconds": 5.565,
+        "cost_usd": 7.522e-05,
+        "context_chunks": 5
+      },
+      "pipeline3": {
+        "pipeline": "GraphRAG",
+        "answer": "No, syncope during bathing in infants is not a pediatric form of water-induced urticaria.\n\nWater-induced urticaria (aquagenic urticaria) is a rare condition characterized by itchy wheals or erythema on the skin upon contact with water, not syncope.\n\nSyncope during bathing in an infant requires urgent investigation for underlying cardiac (e.g., arrhythmias, channelopathies like Long QT Syndrome), neurological (e.g., seizures), or other systemic causes.",
+        "prompt_tokens": 33,
+        "completion_tokens": 98,
+        "total_tokens": 131,
+        "latency_seconds": 11.144,
+        "cost_usd": 3.188e-05,
+        "context_chunks": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:29:28.634415",
+    "question": "Are the long-term results of the transanal pull-through equal to those of the transabdominal pull-through?",
+    "gold_answer": "Our long-term study showed significantly better (2-fold) results regarding the continence score for the abdominal approach compared with the transanal pull-through. The stool pattern and enterocolitis scores were somewhat better for the TERPT group. These findings raise an important issue about the current surgical management of HD; however, more cases will need to be studied before a definitive conclusion can be drawn.",
+    "results": {
+      "pipeline1": {
+        "pipeline": "LLM-Only",
+        "answer": "Yes, generally. Most studies indicate that the long-term functional outcomes (e.g., continence, constipation, enterocolitis) are comparable between transanal and transabdominal pull-through procedures for Hirschsprung's disease.",
+        "prompt_tokens": 44,
+        "completion_tokens": 48,
+        "total_tokens": 92,
+        "latency_seconds": 3.783,
+        "cost_usd": 1.77e-05,
+        "context_chunks": 0
+      },
+      "pipeline2": {
+        "pipeline": "Basic-RAG",
+        "answer": "The context states that a study examined the long-term outcome of transanal endorectal pull-through (TERPT) versus conventional transabdominal (ABD) pull-through for Hirschsprung disease (HD). However, it does not provide the results of this comparison. Therefore, there is not enough information to answer whether the long-term results of the transanal pull-through are equal to those of the transabdominal pull-through.",
+        "prompt_tokens": 507,
+        "completion_tokens": 89,
+        "total_tokens": 596,
+        "latency_seconds": 3.097,
+        "cost_usd": 6.472e-05,
+        "context_chunks": 5
+      },
+      "pipeline3": {
+        "pipeline": "GraphRAG",
+        "answer": "Yes, for most uncomplicated cases of Hirschsprung's disease, the long-term functional outcomes are generally considered comparable, with no definitive evidence of one approach being superior in overall results.",
+        "prompt_tokens": 40,
+        "completion_tokens": 38,
+        "total_tokens": 78,
+        "latency_seconds": 13.46,
+        "cost_usd": 1.44e-05,
+        "context_chunks": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:30:02.884997",
+    "question": "Can tailored interventions increase mammography use among HMO women?",
+    "gold_answer": "The effects of the intervention were most pronounced after the first intervention. Compared to usual care, telephone counseling seemed particularly effective at promoting change among nonadherent women, the group for whom the intervention was developed. These results suggest that telephone counseling, rather than tailored print, might be the preferred first-line intervention for getting nonadherent women on schedule for mammography screening. Many questions would have to be answered about why the tailored print intervention was not more powerful. Nevertheless, it is clear that additional interventions will be needed to maintain women's adherence to mammography. Medical Subject Headings (MeSH): mammography screening, telephone counseling, tailored print communications, barriers.",
+    "results": {
+      "pipeline1": {
+        "pipeline": "LLM-Only",
+        "answer": "Yes, tailored interventions are highly effective in increasing mammography use among HMO women. They work by addressing specific individual, cultural, or systemic barriers to screening, leading to greater adherence compared to generic approaches. Evidence consistently supports their efficacy.",
+        "prompt_tokens": 31,
+        "completion_tokens": 46,
+        "total_tokens": 77,
+        "latency_seconds": 19.969,
+        "cost_usd": 1.612e-05,
+        "context_chunks": 0
+      },
+      "pipeline2": {
+        "pipeline": "Basic-RAG",
+        "answer": "The context does not contain enough information to answer whether tailored interventions can increase mammography use among HMO women. While it mentions that a voucher improved mammography rates, it does not specify if these were \"tailored interventions\" or discuss \"HMO women.\"",
+        "prompt_tokens": 290,
+        "completion_tokens": 51,
+        "total_tokens": 341,
+        "latency_seconds": 3.841,
+        "cost_usd": 3.705e-05,
+        "context_chunks": 5
+      },
+      "pipeline3": {
+        "pipeline": "GraphRAG",
+        "answer": "Yes. Tailored interventions, by addressing individual barriers and motivators, can effectively increase mammography uptake among HMO women.",
+        "prompt_tokens": 27,
+        "completion_tokens": 24,
+        "total_tokens": 51,
+        "latency_seconds": 9.412,
+        "cost_usd": 9.23e-06,
+        "context_chunks": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:30:26.173031",
+    "question": "Double balloon enteroscopy: is it efficacious and safe in a community setting?",
+    "gold_answer": "DBE appears to be equally safe and effective when performed in the community setting as compared to a tertiary referral center with a comparable yield, efficacy, and complication rate.",
+    "results": {
+      "pipeline1": {
+        "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:31:45.440127",
+    "question": "30-Day and 1-year mortality in emergency general surgery laparotomies: an area of concern and need for improvement?",
+    "gold_answer": "Emergency laparotomy carries a high rate of mortality, especially in those over the age of 70 years, and more needs to be done to improve outcomes, particularly in this group. This could involve increasing acute surgical care manpower, early recognition of patients requiring emergency surgery, development of clear management protocols for such patients or perhaps even considering centralisation of emergency surgical services to specialist centres with multidisciplinary teams involving emergency surgeons and care of the elderly physicians in hospital and related community outreach services for post-discharge care.",
+    "results": {
+      "pipeline1": {
+        "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "pipeline": "Basic-RAG",
+        "answer": "Yes, the context suggests that 30-day and 1-year mortality in emergency laparotomies is an area of concern and need for improvement.\n\nEmergency surgery is associated with poorer outcomes and higher mortality, with recent studies suggesting 30-day mortality to be 14-15%. This study found an overall 30-day mortality of 12%, which increased to 22% in patients aged over 70 years (p<0.001). The 1-year mortality was 25% overall, rising to 38% in those aged over 70 years (p<0.001).\n\nThe aim of the study, in analyzing these mortality rates, was explicitly stated as hoping to \"encourage prospective data collection, improvement of care and initiate strategies to establish best practice in this area,\" which directly points to a recognized need for improvement.",
+        "prompt_tokens": 483,
+        "completion_tokens": 189,
+        "total_tokens": 672,
+        "latency_seconds": 4.36,
+        "cost_usd": 9.292e-05,
+        "context_chunks": 5
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 14.874271332s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:33:44.590299",
+    "question": "Is adjustment for reporting heterogeneity necessary in sleep disorders?",
+    "gold_answer": "Sleep disorders are common in the general adult population of Japan. Correction for reporting heterogeneity using anchoring vignettes is not a necessary tool for proper management of sleep and energy related problems among Japanese adults. Older age, gender differences in communicating sleep-related problems, the presence of multiple morbidities, and regular exercise should be the focus of policies and clinical practice to improve sleep and energy management in Japan.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 36.325765515s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '36s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 58.740368248s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 15.756037096s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:35:43.010579",
+    "question": "Do mutations causing low HDL-C promote increased carotid intima-media thickness?",
+    "gold_answer": "Genetic variants identified in the present study may be insufficient to promote early carotid atherosclerosis.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 37.042122204s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 59.250550913s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 17.326445994s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:37:41.074969",
+    "question": "A short stay or 23-hour ward in a general and academic children's hospital: are they effective?",
+    "gold_answer": "This data demonstrates the robust nature of the short stay ward. At these two very different institutions we have shown improved bed efficient and patient care in a cost-effective way. We have also reported on greater parental satisfaction and early return of the child with their family to the community.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 38.850032074s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 1.124893814s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 19.321549755s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:39:39.696882",
+    "question": "Did Chile's traffic law reform push police enforcement?",
+    "gold_answer": "Findings suggest that traffic law reforms in order to have an effect on both traffic fatality and injury rates reduction require changes in police enforcement practices. Last, this case also illustrates how the diffusion of successful road safety practices globally promoted by WHO and World Bank can be an important influence for enhancing national road safety practices.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 40.807604804s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '40s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 2.863637222s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 20.634117046s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:41:38.490877",
+    "question": "Therapeutic anticoagulation in the trauma patient: is it safe?",
+    "gold_answer": "Trauma patients have a significant complication rate related to anticoagulation therapy, and predicting which patients will develop a complication remains unclear. Prospective studies are needed to determine which treatment regimen, if any, is appropriate to safely anticoagulate this high risk population.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 42.005496426s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 4.447064452s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 21.839142046s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:43:37.353457",
+    "question": "Differentiation of nonalcoholic from alcoholic steatohepatitis: are routine laboratory markers useful?",
+    "gold_answer": "Higher MCVs and AST/ALT ratios in ASH reflect the severity of underlying liver disease and do not differentiate NASH from ASH. Instead, these biomarkers might prove useful in guiding selection of patients for liver biopsy and in targeting therapy.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 43.370907535s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 5.550191353s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '5s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 22.976004702s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:45:35.604847",
+    "question": "Prompting Primary Care Providers about Increased Patient Risk As a Result of Family History: Does It Work?",
+    "gold_answer": "No change occurred upon instituting simple, at-the-visit family history prompts geared to improve PCPs' ability to identify patients at high risk for 6 common conditions. The results are both surprising and disappointing. Further studies should examine physicians' perception of the utility of prompts for family history risk.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 44.403016012s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 6.717860558s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 24.732440563s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:47:36.228420",
+    "question": "Do emergency ultrasound fellowship programs impact emergency medicine residents' ultrasound education?",
+    "gold_answer": "Emergency US fellowship programs had a positive impact on residents' US educational experiences. Emergency medicine residents performed more scans overall and also used bedside US for more advanced applications in programs with EUS fellowships.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 46.040575675s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 8.077383009s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 24.146955458s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:49:36.968623",
+    "question": "Patient-Controlled Therapy of Breathlessness in Palliative Care: A New Therapeutic Concept for Opioid Administration?",
+    "gold_answer": "Opioid PCT is a feasible and acceptable therapeutic method to reduce refractory breathlessness in palliative care patients.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 45.52187209s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 7.79374856s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 23.361579084s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '23s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:51:37.310636",
+    "question": "Is there still a need for living-related liver transplantation in children?",
+    "gold_answer": "The short- and long-term outcomes after LRT and SLT did not differ significantly. To avoid the risk for the donor in LRT, SLT represents the first-line therapy in pediatric liver transplantation in countries where cadaveric organs are available. LRT provides a solution for urgent cases in which a cadaveric graft cannot be found in time or if the choice of the optimal time point for transplantation is vital.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 44.70457195s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 7.047538898s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 23.049974423s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '23s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:53:38.557993",
+    "question": "Do patterns of knowledge and attitudes exist among unvaccinated seniors?",
+    "gold_answer": "Findings suggest that cluster analyses may be useful in identifying groups for targeted health messages.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 44.403485567s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 6.433854548s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 21.789792142s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:55:39.254038",
+    "question": "Is there a model to teach and practice retroperitoneoscopic nephrectomy?",
+    "gold_answer": "RPN in a porcine model is feasible and could be very useful for teaching and practicing retroperitoneoscopy.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 43.056833006s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 5.145061877s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '5s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 21.107611758s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T15:57:39.949549",
+    "question": "Cardiovascular risk in a rural adult West African population: is resting heart rate also relevant?",
+    "gold_answer": "Significant associations were observed between RHR and several established cardiovascular risk factors. Prospective studies are needed in sub-Saharan African populations to establish the potential value of RHR in cardiovascular risk assessment.",
+    "results": {
+      "pipeline1": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 42.407274638s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline2": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 4.482148292s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      },
+      "pipeline3": {
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 20.398861296s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}",
+        "answer": "",
+        "total_tokens": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "latency_seconds": 0,
+        "cost_usd": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T22:17:16.623869",
+    "question": "Is there still a need for living-related liver transplantation in children?",
+    "results": {
+      "pipeline1": {
+        "pipeline": "LLM-Only",
+        "answer": "**Yes.** Living-related liver transplantation (LRLT) remains critical in pediatric medicine for several key reasons:\n\n1. **Organ Shortage:** There is a persistent scarcity of deceased donor organs, particularly for pediatric patients. LRLT significantly reduces waitlist time, thereby decreasing waitlist mortality and morbidity.\n2. **Size Matching:** Achieving an appropriate graft-to-recipient weight ratio is vital to avoid \"small-for-size syndrome.\" LRLT allows for more precise anatomical and weight matching, especially for infants and small children.\n3. **Planned Timing:** Unlike deceased donor transplants, which are emergent and unpredictable, LRLT can be scheduled electively. This allows the surgical team to optimize the child's nutritional and physiological status prior to the procedure.\n4. **Improved Outcomes:** In many centers, LRLT is associated with lower rates of primary non-function and better overall survival rates in specific pediatric populations compared to waiting for a deceased donor.",
+        "prompt_tokens": 34,
+        "completion_tokens": 199,
+        "total_tokens": 233,
+        "latency_seconds": 21.847,
+        "cost_usd": 6.225e-05,
+        "context_chunks": 0
+      },
+      "pipeline2": {
+        "pipeline": "Basic-RAG",
+        "answer": "Living donor liver transplantation has become a cornerstone for the treatment of children with end-stage hepatic dysfunction, particularly in populations or countries with low rates of organ utilization from deceased donors.",
+        "prompt_tokens": 429,
+        "completion_tokens": 35,
+        "total_tokens": 464,
+        "latency_seconds": 14.338,
+        "cost_usd": 4.267e-05,
+        "context_chunks": 5
+      },
+      "pipeline3": {
+        "pipeline": "GraphRAG",
+        "answer": "**Yes.** Living-related liver transplantation (LRLT) remains critical in pediatric care for the following reasons:\n\n*   **Organ Shortage:** There is a chronic scarcity of deceased donor organs, particularly size-matched grafts for infants and small children.\n*   **Reduced Waitlist Mortality:** LRLT allows for timely transplantation, avoiding the high risk of death or severe clinical deterioration while waiting for a deceased donor.\n*   **Optimal Size Matching:** A living donor (typically a parent) can provide a graft with a more appropriate volume-to-recipient ratio, reducing the risk of \"small-for-size syndrome.\"\n*   **Improved Outcomes:** By eliminating waitlist time and ensuring a viable, timely graft, LRLT often results in superior short-term survival rates for critically ill pediatric patients.",
+        "prompt_tokens": 30,
+        "completion_tokens": 167,
+        "total_tokens": 197,
+        "latency_seconds": 64.879,
+        "cost_usd": 5.235e-05,
+        "context_chunks": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T22:31:28.949423",
+    "question": "\"Landolt C and snellen e acuity: differences in strabismus amblyopia?\"",
+    "results": {
+      "pipeline1": {
+        "pipeline": "LLM-Only",
+        "answer": "In the context of strabismus amblyopia, the primary differences between Landolt C and Snellen E acuity tests relate to **reliability, guessing, and directional bias**:\n\n1.  **Guessing and Reliability:** Patients with amblyopia\u2014particularly children\u2014are more prone to \"guessing\" due to reduced visual resolution. The **Landolt C** is considered the gold standard because it is more objective and less susceptible to the guessing patterns often seen with the Snellen E.\n2.  **Directional Bias:** The **Snellen E** is highly susceptible to directional bias (e.g., a patient consistently answering \"up\" or \"right\" regardless of the stimulus). This can lead to an overestimation of visual acuity in amblyopic eyes. Landolt C minimizes this bias.\n3.  **Consistency:** Landolt C provides more consistent and reproducible results across different examiners and patients, making it superior for monitoring the progress of amblyopia treatment (e.g., patching).\n4.  **Cognitive Load:** Both remove the need for letter recognition (unlike standard Snellen), but the Landolt C is mathematically more rigorous in defining the threshold of visual resolution.\n\n**Summary:** While both are \"optotypes\" used for non-readers, the **Landolt C is more accurate and reliable** for measuring visual acuity in strabismus amblyopia because it reduces the likelihood of false-positive results caused by guessing and directional bias.",
+        "prompt_tokens": 39,
+        "completion_tokens": 299,
+        "total_tokens": 338,
+        "latency_seconds": 30.126,
+        "cost_usd": 9.263e-05,
+        "context_chunks": 0
+      },
+      "pipeline2": {
+        "pipeline": "Basic-RAG",
+        "answer": "For eyes with strabismus amblyopia, the mean decimal values for Landolt C acuity (LR) and Snellen E acuity (SE) were 0.14 and 0.16, respectively. The mean difference between LR and SE was 0.55 lines, with higher values of SE.",
+        "prompt_tokens": 573,
+        "completion_tokens": 66,
+        "total_tokens": 639,
+        "latency_seconds": 73.122,
+        "cost_usd": 6.277e-05,
+        "context_chunks": 5
+      },
+      "pipeline3": {
+        "pipeline": "GraphRAG",
+        "answer": "In strabismus amblyopia, there is **no clinically significant difference** in the visual acuity (VA) measurements obtained between Landolt C and Snellen E, as both are **forced-choice optotypes** that do not require literacy.\n\nHowever, key technical distinctions exist:\n\n1.  **Standardization:** Landolt C is considered the global \"gold standard\" for research because it ensures a strictly uniform gap width regardless of orientation, whereas some Snellen E charts may have slight variations.\n2.  **Reliability:** Landolt C is often preferred in pediatric amblyopia cases to reduce \"guessing\" bias, as it is perceived as more objective and less prone to the pattern-recognition errors sometimes seen with the Snellen E.\n3.  **Clinical Application:** Both are equally effective at bypassing the linguistic requirements of standard Snellen letters, making them ideal for children with amblyopia.\n\n**Summary:** While results are generally interchangeable, **Landolt C provides higher precision and standardization** for quantifying amblyopic deficits.",
+        "prompt_tokens": 35,
+        "completion_tokens": 213,
+        "total_tokens": 248,
+        "latency_seconds": 92.363,
+        "cost_usd": 6.652e-05,
+        "context_chunks": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-14T22:38:17.339599",
+    "question": "\"Landolt C and snellen e acuity: differences in strabismus amblyopia?\"",
+    "results": {
+      "pipeline1": {
+        "pipeline": "LLM-Only",
+        "answer": "In strabismus amblyopia, there is **no clinically significant difference** in the visual acuity (VA) values measured by the Landolt C and the Snellen E; both are used to assess the minimum angle of resolution (MAR).\n\nHowever, from a biomedical and psychophysical perspective, the following nuances apply:\n\n1.  **Objectivity and Guessing:** The Landolt C is generally considered the \"gold standard\" for research because it is a gap-detection task. It is slightly more rigorous than the Snellen E in minimizing \"guessing\" patterns, as it requires the patient to identify the location of a gap rather than the direction of a letter.\n2.  **Directional Sensitivity:** Patients with amblyopia can occasionally exhibit orientation-specific deficits. Because the Landolt C and Snellen E both rely on directional identification (up, down, left, right), they are both subject to these potential biases, unlike standard alphabet charts.\n3.  **Crowding Phenomenon:** Both optotypes are equally susceptible to the **crowding phenomenon** (a hallmark of amblyopia), where acuity drops when the letter is surrounded by other letters. To get an accurate measure of \"true\" acuity in amblyopia, both should be presented as **single-optotypes** (isolated) rather than in rows.\n\n**Summary:** While results are generally interchangeable, **Landolt C is preferred for clinical trials** due to higher standardization and reduced guessing.",
+        "prompt_tokens": 39,
+        "completion_tokens": 300,
+        "total_tokens": 339,
+        "latency_seconds": 49.416,
+        "cost_usd": 9.292e-05,
+        "context_chunks": 0
+      },
+      "pipeline2": {
+        "pipeline": "Basic-RAG",
+        "answer": "In eyes with strabismus amblyopia, the mean decimal values for Landolt C acuity (LR) and Snellen E acuity (SE) were 0.14 and 0.16, respectively. The mean difference between LR and SE for eyes with strabismus amblyopia was 0.55 lines, with higher values of SE.",
+        "prompt_tokens": 573,
+        "completion_tokens": 75,
+        "total_tokens": 648,
+        "latency_seconds": 20.236,
+        "cost_usd": 6.548e-05,
+        "context_chunks": 5
+      },
+      "pipeline3": {
+        "pipeline": "GraphRAG",
+        "answer": "There is **no significant clinical difference** between Landolt C and Snellen E acuity measurements in strabismus amblyopia. Both are **gap-detection optotypes** that require the patient to identify the orientation of a break, eliminating the need for letter recognition or language skills.\n\n**Key Points:**\n*   **Similarity:** Both measure high-spatial frequency resolution via directional orientation.\n*   **Advantage over Letters:** In amblyopia, both are superior to letter charts (e.g., ETDRS) because they bypass literacy biases and are less affected by the **\"crowding phenomenon\"** (where letters grouped together appear blurred), which is prevalent in amblyopic vision.\n*   **Clinical Application:** Either can be used reliably to quantify visual acuity in strabismus amblyopia, provided the testing is performed monocularly.",
+        "prompt_tokens": 35,
+        "completion_tokens": 176,
+        "total_tokens": 211,
+        "latency_seconds": 73.185,
+        "cost_usd": 5.542e-05,
+        "context_chunks": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-15T13:22:21.725190",
+    "question": "Does aspirin reduce platelet aggregation in patients",
+    "results": {
+      "pipeline1": {
+        "pipeline": "LLM-Only",
+        "answer": "Yes. Aspirin reduces platelet aggregation by irreversibly inhibiting the enzyme cyclooxygenase-1 (COX-1), which blocks the synthesis of thromboxane A2, a potent mediator of platelet activation and aggregation.",
+        "prompt_tokens": 27,
+        "completion_tokens": 42,
+        "total_tokens": 69,
+        "latency_seconds": 12.387,
+        "cost_usd": 1.462e-05,
+        "context_chunks": 0
+      },
+      "pipeline2": {
+        "pipeline": "Basic-RAG",
+        "answer": "Yes, aspirin reduces platelet aggregation in some patients, although results vary based on the condition:\n\n*   In OPCAB-patients, a 5-day oral treatment with aspirin significantly inhibited platelet aggregation to 55.7+/-16.3% of control before surgery (P<0.05).\n*   Conversely, in patients after CPB, aggregation remained unchanged (105.8+/-26.9% of control before surgery; P>0.05), which was described as \"resistance to aspirin.\"\n*   Additionally, one provided text states that \"all patients were aspirin responsive.\"",
+        "prompt_tokens": 829,
+        "completion_tokens": 128,
+        "total_tokens": 957,
+        "latency_seconds": 23.37,
+        "cost_usd": 0.00010057,
+        "context_chunks": 5
+      },
+      "pipeline3": {
+        "pipeline": "GraphRAG",
+        "answer": "Yes. Aspirin irreversibly inhibits cyclooxygenase-1 (COX-1), blocking the synthesis of thromboxane A2, which is a potent mediator of platelet aggregation.",
+        "prompt_tokens": 23,
+        "completion_tokens": 35,
+        "total_tokens": 58,
+        "latency_seconds": 75.35,
+        "cost_usd": 1.222e-05,
+        "context_chunks": 0
+      }
+    }
+  }
+]
