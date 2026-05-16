@@ -1,9 +1,23 @@
 {
+  "pipeline1": {
+    "llm_judge_pass_rate": 0.0,
+    "avg_bertscore_f1": 0.7794,
+    "n_evaluated": 5,
+    "meets_judge_bonus": false,
+    "meets_bert_bonus": true
+  },
   "pipeline2": {
-    "llm_judge_pass_rate": 1.0,
-    "avg_bertscore_f1": 0.7848,
-    "n_evaluated": 1,
-    "meets_judge_bonus": true,
+    "llm_judge_pass_rate": 0.667,
+    "avg_bertscore_f1": 0.7942,
+    "n_evaluated": 6,
+    "meets_judge_bonus": false,
+    "meets_bert_bonus": true
+  },
+  "pipeline3": {
+    "llm_judge_pass_rate": 0.4,
+    "avg_bertscore_f1": 0.7877,
+    "n_evaluated": 5,
+    "meets_judge_bonus": false,
     "meets_bert_bonus": true
   }
 }
